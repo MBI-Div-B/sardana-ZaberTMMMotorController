@@ -13,7 +13,7 @@ class ZaberTMMMotorController(MotorController):
     MaxDevice = 2
     
     def __init__(self, inst, props, *args, **kwargs):
-        super(ZaberTMMController, self).__init__(
+        super(ZaberTMMMotorController, self).__init__(
             inst, props, *args, **kwargs)
 
         # initialize hardware communication
